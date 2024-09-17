@@ -58,7 +58,7 @@ if __name__ == "__main__":
         features = extract_features(emg_data)
         predicted_gesture = classify_features(features)
 
-        # Map predicted gesture to servo angle
+        # Map predicted gesture to 
         servo_angle = 0  # Replace with your mapping logic
 
         control_servo(servo_angle)
